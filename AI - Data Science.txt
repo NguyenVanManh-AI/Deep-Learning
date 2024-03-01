@@ -1,0 +1,4 @@
+=================================================== AI - Data Science ===================================================
+    + Run file ipynb : Đi đến folder chứa các file ipynb  
+        > python -m notebook . Sau đó đi đến : http://localhost:8888/tree 
+        
