@@ -15,7 +15,7 @@
 
 2. VGGFace_SENet50_Transfer_Fine_Tuning.ipynb (ĐỌC THÊM)
     + Mục đích là cũng sử dụng Conv của VGG Face + FCs của mình 
-    + Sau đó transfer learning : fine tuning lại bằng dữ liệu của mình để tăng độ chính xác cho nó , tuy nhiên vì dữ liệu của mình quá ít mà model lại quá phức tạp , dù đã cố gắng giảm độ phức tạp bằng cách thêm các lớp Dropdown nhưng vẫn bị overfitting 
+    + Sau đó transfer learning : fine tuning lại bằng dữ liệu của mình để tăng độ chính xác cho nó , tuy nhiên vì dữ liệu của mình quá ít mà model lại quá phức tạp , dù đã cố gắng giảm độ phức tạp bằng cách thêm các lớp Dropout nhưng vẫn bị overfitting 
     + Thử lưu lại model và load ra (bỏ đi lớp softmax ở cuối để dùng cho việc trích xuất vector đặc trưng) (VGGFace.TestModel_Fine tuning.Facerognition.ipynb)
     nhưng kết quả là độ chính xác chỉ khoảng 30% . 
 
