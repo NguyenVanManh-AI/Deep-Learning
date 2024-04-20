@@ -20,3 +20,7 @@
 /Research/Face_Recognition/Dataset_fine_tuning_train_test
 /Research/Face_Recognition/Dataset_fine_tuning_train_valid_test
 /Research/Face_Recognition/Dataset_face_fine_tuning_train_valid_test
+/Deep Learning.docx
+*/*.h5
+*/*.keras
+*/*.zip
